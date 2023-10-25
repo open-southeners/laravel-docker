@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenSoutheners\PhpPackage;
+namespace OpenSoutheners\LaravelDocker;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 

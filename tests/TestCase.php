@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenSoutheners\PhpPackage\Tests;
+namespace OpenSoutheners\LaravelDocker\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use OpenSoutheners\PhpPackage\ServiceProvider;
+use OpenSoutheners\LaravelDocker\ServiceProvider;
 
 abstract class TestCase extends Orchestra
 {

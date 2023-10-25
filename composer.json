@@ -1,6 +1,6 @@
 {
-    "name": "open-southeners/packagist_package_here",
-    "description": "and_description_here",
+    "name": "open-southeners/laravel-docker",
+    "description": "Integrates Docker PHP into Laravel applications",
     "license": "MIT",
     "keywords": [
         "open-southeners"
@@ -19,7 +19,7 @@
         }
     ],
     "require": {
-        "php": "^8.0 || ^8.1 || ^8.2"
+        "php": "^8.0"
     },
     "require-dev": {
         "nunomaduro/larastan": "^2.0",
@@ -30,12 +30,12 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "OpenSoutheners\\PhpPackage\\": "src"
+            "OpenSoutheners\\LaravelDocker\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "OpenSoutheners\\PhpPackage\\Tests\\": "tests"
+            "OpenSoutheners\\LaravelDocker\\Tests\\": "tests"
         }
     },
     "config": {
@@ -44,7 +44,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OpenSoutheners\\PhpPackage\\ServiceProvider"
+                "OpenSoutheners\\LaravelDocker\\ServiceProvider"
             ]
         }
     }
